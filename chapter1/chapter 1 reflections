@@ -1,0 +1,15 @@
+Chapter 1 is about building abstractions through procedures. 
+
+
+Chapter 1.1 - The elements of programming
+=========================================
+This chapter is a basic introduction to programming, where concepts like expressions and compound expressions are introduced. 
+I found it suprising that mixed in with basic programming knowledge were deeper concepts like the recursive nature of processes,
+different models for substitutions in compound expressions, and the importance of environment in evaluating expressions.  
+
+I need to remember that the footnotes of these chapters hold lots of information, and that I should take the time to parse them
+carefully.  For example, there was a connection made between stream processing and infinite data structures which I never registered 
+before.  I've always thought of SQS, Kafka, and Kinesis as infrastructure components, but really there just infinite data structures 
+exposed through APIs. Another example is the authors reflection on declarative vs. imperative descriptions (ie, what is vs how to), 
+which reminded me that the real purpose of testing is to declare and validate what the behaviour of an interface should be, and that all the 
+funny-business of writing testing procedures is to approximate this.    
