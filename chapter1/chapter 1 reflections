@@ -12,4 +12,22 @@ carefully.  For example, there was a connection made between stream processing a
 before.  I've always thought of SQS, Kafka, and Kinesis as infrastructure components, but really there just infinite data structures 
 exposed through APIs. Another example is the authors reflection on declarative vs. imperative descriptions (ie, what is vs how to), 
 which reminded me that the real purpose of testing is to declare and validate what the behaviour of an interface should be, and that all the 
-funny-business of writing testing procedures is to approximate this.    
+funny-business of writing testing procedures is to approximate this.
+
+
+Chapter 1.2 - Procedures and the processes they generate
+========================================================
+This chapter is where the deep content begins.  The basic premise is that programs are made of procedures, and they collectively 
+generate processes that consume the resources of time and space.  These processes can have different shapes, such as a recursive 
+process or an iterative process.  Recursive processes fan out then in consuming extra space through chains of deferred operations
+that contract when operations complete.  Iterative processes do not consume extra space as they do not have nested function calls, 
+because of the big simplification that every step in evolution of process can be defined by a procedure and a set of state variables.
+A big revelation from this is that all iterative processes can be defined as recursive processes, meaning looping constructs like
+for loops and while loops can be replaced by recursive function calls IF you know what you're doing.  Recursive process are often expensive,
+confusing, and possibly never-ending, but are important as recusrsion is ubiquitous in computing.  If you are blindsided by them you might
+get a program that never finishes, but knowing how to use it you can get tremendous efficiences like through binary search 
+
+
+
+
+    
