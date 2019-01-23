@@ -1,5 +1,8 @@
 #lang sicp 
 
+; Easy problem.  Just like prior one.  
+
+
 (define (double a)
   (+ a a) )
 
